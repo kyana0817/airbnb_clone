@@ -1,0 +1,158 @@
+.header-cover {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    align-items: center;
+    z-index: 1;
+}
+
+.header-margin {
+    width: 35%;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    color: #f4f4f4;
+    height: 45px;
+}
+
+.service-menus {
+    list-style-type: none;
+    height: 45px;
+}
+
+.service-menus ul {
+    padding-left: 0px;
+}
+
+.service-menus ul li {
+    margin-left: 25px;
+}
+
+.service-menus ul li:first-child {
+    margin-left: 0;
+}
+
+.service-menu {
+    display: inline-block;
+    font-size: 16px;
+    color: #f4f4f4;
+}
+
+.border-line {
+    display: hidden;
+    padding-top: 6px;
+    border-bottom: solid;
+    width: 0;
+    margin: 0 auto;
+    transition: 0.15s;
+}
+
+.service-menu a:hover .border-line {
+    display: block;
+    width: 5px;
+}
+
+.service-menu a:focus .border-line {
+    display: block;
+    width: 15px;
+}
+
+.account {
+    display: flex;
+    height: 45px;
+    justify-content: flex-end;
+}
+
+.account button {
+    margin-left: 15px;
+}
+
+.account button:first-child {
+    margin-left: 0;
+}
+
+.account-information {
+    background: #f4f4f4;
+    padding: 5px 5px 5px 12px;
+    /* height: 42px; */
+}
+
+
+/* .lang-sel {
+    padding: 15px;
+} */
+
+.host-account {
+    color: #f4f4f4;
+    background: fixed;
+}
+
+.host-account:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.lang-sel {
+    color: #f4f4f4;
+    background: fixed;
+}
+
+.lang-sel:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.information-icons {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.human-silhouette {
+    height: 140px;
+    width: 30px;
+    margin-left: 12px;
+    box-sizing: content-box;
+}
+
+.human-silhouette:before {
+    margin-left: 10px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 850px;
+    height: 60px;
+    border-radius: 3vh;
+    background: #f4f4f4;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    background: #ff385c;
+    height: 80%;
+    width: 50px;
+    border-radius: 50%;
+    transition: 0.15s;
+}
+
+.search-button:hover {
+    background: #9c2851;
+}
+
+.search-button:focus {
+    background: #9c2851;
+}
+
+.search-icon {
+    margin: 0 auto;
+    color: #ffffff;
+}

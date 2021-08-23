@@ -1,0 +1,47 @@
+.top-cover {
+    background: url("../images/background.webp") no-repeat;
+    background-size: cover;
+    height: 860px;
+    background-position-y: -100px;
+    padding-top: 450px;
+}
+
+.top-content {
+    width: 100%;
+    height: 100px;
+}
+
+.top-message {
+    text-align: center;
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.top-button {
+    text-align: center;
+}
+
+.top-button button {
+    background: #ffffff;
+    margin-top: 20px;
+    padding: 20px 60px;
+    border-radius: 4vh;
+    transition: 0.15s;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.top-button button:hover {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+.top-button button span {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    background: linear-gradient(90deg, #6F019C 0%, #C6017E 135.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

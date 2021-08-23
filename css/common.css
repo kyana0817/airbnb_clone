@@ -1,0 +1,49 @@
+body {
+    font-size: 14px;
+    line-height: 1.43;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+a {
+    all: unset;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus,
+button:hover,
+button:active,
+button:focus,
+input:hover,
+input:active,
+input:focus {
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+img {
+    border-radius: 1vh;
+}
+
+button {
+    background: fixed;
+    border: none;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3vh;
+    border-style: none;
+}

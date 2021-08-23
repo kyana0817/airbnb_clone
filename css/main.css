@@ -1,0 +1,142 @@
+.main-wrapper {
+    width: 100%;
+}
+
+.main-wrapper>div {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0 30px;
+}
+
+.surrounding-area-contents {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.surrounding-area-content {
+    width: 25%;
+    margin-top: 15px;
+}
+
+.surrounding-area-content>button {
+    display: flex;
+    width: 98%;
+}
+
+.surrounding-area-content-discription {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.surrounding-area-content-discription p {
+    text-align: left;
+    font-weight: 600;
+}
+
+.favorite-place-contents {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.favorite-place-content {
+    width: 24.7%;
+    margin-top: 15px;
+}
+
+.favorite-place-content-discription {
+    text-align: left;
+    padding-top: 5px;
+}
+
+.favorite-place-content-discription span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hosting-challenge {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.hosting-challenge button {
+    width: 100%;
+}
+
+.hosting-challenge button img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hosting-forwarding-content {
+    position: absolute;
+    top: 125px;
+    left: 95px;
+    color: #f4f4f4;
+    width: 385px;
+}
+
+.hosting-forwarding-content>* {
+    text-align: left;
+}
+
+.hosting-title {
+    font-family: inherit;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 600;
+}
+
+.hosting-textcontent {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.hosting-invite-box {
+    background-color: #f4f4f4;
+    margin-top: 40px;
+    width: 145px;
+    padding: 14px 24px;
+    color: #000;
+    border-radius: 1vh;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.unique-exp-contents {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.unique-exp-content {
+    width: 33.3%;
+    margin-top: 15px;
+}
+
+.unique-exp-content button {
+    width: 100%;
+}
+
+.unique-exp-content button img {
+    height: 521px;
+    object-fit: cover;
+}
+
+.unique-exp-content-discription {
+    text-align: left;
+    padding-top: 5px;
+}
+
+.unique-exp-content-discription p {
+    font-size: 18px;
+    font-weight: 600;
+}
