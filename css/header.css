@@ -169,7 +169,6 @@
 .search-content-detail {
     font-size: 14px;
     line-height: 18px;
-    /* font-weight: 600; */
     background-color:unset;
     color: #222222;
     border: none;
@@ -191,7 +190,6 @@
 }
 
 .search-button {
-    /* position: absolute; */
     z-index: 1;
     display: flex;
     align-items: center;
